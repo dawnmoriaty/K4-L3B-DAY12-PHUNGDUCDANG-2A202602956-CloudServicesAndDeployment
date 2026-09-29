@@ -35,6 +35,7 @@ def log_event(event: str, level: str = "info", **fields) -> str:
         '{"event": "ask_completed", "level": "info", "timestamp": "...", ...}'
     """
     
+    
     log = {
         "event": event,
         "level": level.lower(),
